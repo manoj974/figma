@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #43DF9A;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    background-color: #43DF9A;
+    margin: 0;
+    list-style-type: none;
+}
+li{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+li img{
+    height: 16px;
+    width: auto;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
